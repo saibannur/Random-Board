@@ -1,0 +1,21 @@
+from numpy import random
+
+def print2DArray (arr):
+  for i in range(len(arr)):
+    for j in range(len(arr[i])):
+      print(arr[i][j], end=" ")
+    print()
+  print()
+    
+def findsum(arr):
+  sumz = 0
+  for u in range(len(arr)):
+    for j in range(len(arr[u])):
+      sumz = sumz + arr[u][j]
+  print("sum is " + str(sumz))
+  
+     
+randArr = random.randint(0, 9, size=(10, 10))
+print2DArray (randArr)
+
+findsum(randArr)
