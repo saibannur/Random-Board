@@ -15,7 +15,7 @@ def findsum(arr):
   print("sum is " + str(sumz))
   
      
-randArr = random.randint(0, 9, size=(10, 10))
+randArr = random.randint(0, 10, size=(10, 10))
 print2DArray (randArr)
 
 findsum(randArr)
